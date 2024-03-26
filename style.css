@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    pad: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#eeee;
+    padding: 18px;
+    box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+ul{
+    margin-right: 45x;
+    margin-top: 7px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+    color: rgb(5, 129, 129);
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+nav ul li i{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .mainText{
+    margin-top: 144px;
+}
+.mainText h1{
+    font-size: 45px;
+    
+}
+.mainText .ab{
+    color: rgb(4, 138, 138);
+}
+.mainText button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(4, 140, 140);
+    border-radius: 10%;
+    font-size: 15px;
+    color:white;
+    margin-top: 24px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button:hover{
+    border: 2px solid rgb(3, 128, 128);
+    background-color: transparent;
+    color: rgb(2, 121, 121);
+}
+
+.trend .head h1{
+  text-align: center;
+  padding: 33px;
+  margin-top: 22px;
+}
+.head span{
+    color: rgb(2, 164, 164);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-inline: 11px;
+    padding: 22px;
+}
+.crd .img1{
+    height: 300px;
+    width: 250px;
+}
+.crd .img2{
+    height: 300px;
+    width: 250px;
+}
+.crd .img3{
+    height: 300px;
+    width: 250px;
+}
+.crd button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(5, 141, 141);
+    color: white;
+    font-size: 19px;
+}
+.crd .img5{
+    height: 300px;
+    width: 250px;
+}
+.crd .img6{
+    height: 350px;
+    width: 250px;
+}
+.crd .img4{
+    height: 300px;
+    width: 250px;
+}
+.blogs h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+}
+.blogs span{
+    color: rgb(4, 174, 174);
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 11px;
+    margin-inline: 22px;
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 85%;
+}
+.bolg img{
+    width: 85px;
+    padding: 22px;
+}
+.blogText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 120px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(4, 136, 136);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 33px;
+    text-decoration: none;
+}
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(2, 2, 64);
+    padding: 43px;
+    margin-top: 20px;
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 250px;
+    height: 25px;
+    outline: none;
+    font-size: 18px;
+}
+.inp button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 173, 173);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
